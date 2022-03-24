@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+}
+.heading {
+	background-color: rgba(70, 67, 210, 255);
+	color: white;
+	padding: 2% 2.6%;
+	margin-bottom: 5%;
+	font-weight: 500;
+	font-size: 24px;
+}
+.container {
+	padding: 0 5vw;
+}
+.bookInfo {
+	margin: 20px 0;
+	padding: 10px 20px;
+	display: block;
+	background-color: rgba(249, 239, 227, 255);
+}
+
+.bookTitle {
+	font-size: 1.5em;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.bookAuthor {
+	color: #db856c;
+}
+.removeBook {
+	position: relative;
+	float: right;
+	color: #83796f;
+	font-size: 24px;
+	cursor: pointer;
+}
+.add-form {
+	margin-bottom: 35px;
+}
+
+.input-fields {
+	width: 97.4%;
+	height: 35px;
+	margin: 20px 0;
+	padding: 3px 15px;
+	outline: none;
+	border: 1px solid rgba(182, 182, 182, 0.7);
+	color: #000000;
+	font-size: 14px;
+	display: block;
+}
+
+.btn {
+	font-weight: bold;
+	width: 130px;
+	margin: 1rem inherit;
+	height: auto;
+	padding: 5px 25px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background: rgba(255, 128, 93, 255);
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+}
+.errorMessage {
+	color: red;
+	font-style: italic;
+}
+
+@media (max-width: 600px) {
+	.heading {
+		padding: 7% 10%;
+		margin-bottom: 10%;
+	}
+	.input-fields {
+		width: 91%;
+	}
+}
+
+@media (max-width: 400px) {
+	.input-fields {
+		width: 90.5%;
+	}
+}
